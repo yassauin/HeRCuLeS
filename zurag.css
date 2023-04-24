@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(ball.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: azure;
+    font-family: arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: olive;
+}
+
+p{
+    color: olive;
+    font-size: 22px;
+    font-family: Arial;
+
+}

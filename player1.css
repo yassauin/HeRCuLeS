@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif ;
+}
+
+body{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+
+a{
+    text-decoration: none;
+    color: orange;
+    font-size: 1rem;
+    transition: 0.4ms ease-in-out;
+}
+
+
+.nabr{
+    width: 100%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.href{
+    background-color: orangered;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
