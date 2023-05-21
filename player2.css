@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main {
+    width: 100%;
+    background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.5) 50%,
+        rgba(0, 0, 0, 0.5) 50%
+      ),
+      url(messi1.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+  }
+  
+  .content {
+    width: 120px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: static;
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+  }
+  
+  h1 {
+    color: white;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 20px;
+  }
+  
+table,th,td {
+    width: 800px;
+    margin: auto;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+  }
+  
+  p {
+    color: black;
+    font-size: 14px;
+    font-family: arial;
+  }
